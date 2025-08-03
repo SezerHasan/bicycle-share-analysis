@@ -1,0 +1,33 @@
+# R Package Requirements for Bike Share Analysis
+# Install these packages using: install.packages(c("package1", "package2", ...))
+
+# Core data manipulation and analysis
+dplyr>=1.0.0
+tidyr>=1.1.0
+readr>=1.4.0
+lubridate>=1.7.0
+
+# Visualization
+ggplot2>=3.3.0
+plotly>=4.9.0
+scales>=1.1.0
+
+# Statistical analysis
+stats>=4.0.0
+car>=3.0.0
+broom>=0.7.0
+
+# Interactive dashboards and reporting
+flexdashboard>=0.5.0
+DT>=0.17.0
+knitr>=1.30.0
+rmarkdown>=2.5.0
+
+# Additional utilities
+corrplot>=0.84.0
+gridExtra>=2.3.0
+
+# Optional: For enhanced visualizations
+viridis>=0.5.0
+ggthemes>=4.2.0
+patchwork>=1.0.0 

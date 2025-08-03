@@ -1,0 +1,55 @@
+# R specific files
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+*.Rproj.user/
+
+# R package files
+*.tar.gz
+*.tgz
+*.zip
+
+# R Markdown cache
+*_cache/
+*_files/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Data files (if too large)
+# *.csv
+# *.xlsx
+# *.xls
+
+# Output files
+*.html
+*.pdf
+*.docx
+*.pptx
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup 
