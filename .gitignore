@@ -37,9 +37,9 @@ Thumbs.db
 *.sublime-workspace
 
 # Data files (if too large)
-# *.csv
-# *.xlsx
-# *.xls
+*.csv
+*.xlsx
+*.xls
 
 # Output files
 *.html
