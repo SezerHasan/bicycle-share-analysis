@@ -48,7 +48,7 @@ clean_theme <- theme_minimal() +
     panel.grid.major = element_blank(),
     panel.grid.minor = element_blank(),
     panel.border = element_blank(),
-    axis.line = element_line(color = "#666666", size = 0.5),
+    axis.line = element_line(color = "#666666", linewidth = 0.5),
     axis.text = element_text(color = "#333333", size = 10),
     axis.title = element_text(color = "#333333", size = 12, face = "bold"),
     plot.title = element_text(color = "#333333", size = 14, face = "bold", hjust = 0.5),
@@ -169,7 +169,7 @@ revenue_by_duration <- bike_data_clean %>%
   filter(!is.na(duration_bin))
 
 p6 <- ggplot(revenue_by_duration, aes(x = duration_bin, y = avg_revenue, fill = usertype)) +
-  geom_bar(stat = "identity", position = "dodge", alpha = 0.9, color = "white", size = 0.3) +
+  geom_bar(stat = "identity", position = "dodge", alpha = 1.0, color = "black", linewidth = 0.5) +
   labs(title = "Average Revenue by Trip Duration and User Type",
        subtitle = "Customers generate higher revenue per trip",
        x = "Trip Duration (minutes)",
@@ -177,7 +177,7 @@ p6 <- ggplot(revenue_by_duration, aes(x = duration_bin, y = avg_revenue, fill = 
        fill = "User Type") +
   clean_theme +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  scale_fill_manual(values = c("Customer" = "#E74C3C", "Subscriber" = "#3498DB")) +
+  scale_fill_manual(values = c("Customer" = "#FF0000", "Subscriber" = "#0000FF")) +
   scale_y_continuous(labels = scales::dollar)
 
 # 6. Peak Hour Revenue Analysis
