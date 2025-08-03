@@ -73,13 +73,15 @@ Bicycle_Share/
 
 ## Key Visualizations
 
-### Hourly Usage Patterns
+### 📊 Hourly Usage Patterns
 ![Hourly Usage](plots/hourly_usage.png)
 
-### User Type Distribution
+### 👥 User Type Distribution
+**Red = Customers (30%), Blue = Subscribers (70%)**
 ![User Types](plots/user_type_distribution.png)
 
-### Revenue Analysis
+### 💰 Revenue Analysis
+**Red = Customers (higher revenue), Blue = Subscribers (flat rate)**
 ![Revenue Analysis](plots/revenue_by_duration.png)
 
 ---
