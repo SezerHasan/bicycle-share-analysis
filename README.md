@@ -20,9 +20,11 @@ This project analyzes **1.6+ million bike share trips** from Q3 2019 to identify
 
 ## Interactive Dashboard
 
-**[View Interactive Report](https://sezerhasan.github.io/bicycle-share-analysis/bike_share_dashboard.html)**
+**[🚀 View Interactive Report](https://sezerhasan.github.io/bicycle-share-analysis/bike_share_dashboard.html)**
 
 *Explore the data interactively with embedded visualizations, statistical analysis, and business insights.*
+
+**Note**: Use the link above to view the live interactive dashboard. Direct file links in GitHub will show HTML source code.
 
 ---
 
