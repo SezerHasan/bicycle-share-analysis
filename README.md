@@ -110,7 +110,7 @@ Rscript statistical_analysis_fixed.R
 
 ### Viewing Results
 
-1. **Interactive Dashboard**: Open `reports/bike_share_dashboard.html` in your browser
+1. **Interactive Dashboard**: Open `bike_share_dashboard.html` in your browser
 2. **Static Visualizations**: Check the `plots/` directory
 3. **Detailed Report**: Read `reports/Bike_Share_Revenue_Optimization_Report.md`
 
