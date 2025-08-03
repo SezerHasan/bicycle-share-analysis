@@ -36,10 +36,11 @@ Thumbs.db
 *.sublime-project
 *.sublime-workspace
 
-# Data files (if too large)
+# Data files (large files excluded from GitHub)
 *.csv
 *.xlsx
 *.xls
+data/Trips_2019_Q3.csv
 
 # Output files
 *.html
