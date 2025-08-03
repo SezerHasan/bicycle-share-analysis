@@ -169,7 +169,7 @@ revenue_by_duration <- bike_data_clean %>%
   filter(!is.na(duration_bin))
 
 p6 <- ggplot(revenue_by_duration, aes(x = duration_bin, y = avg_revenue, fill = usertype)) +
-  geom_bar(stat = "identity", position = "dodge", alpha = 0.8) +
+  geom_bar(stat = "identity", position = "dodge", alpha = 0.9, color = "white", size = 0.3) +
   labs(title = "Average Revenue by Trip Duration and User Type",
        subtitle = "Customers generate higher revenue per trip",
        x = "Trip Duration (minutes)",
@@ -177,7 +177,7 @@ p6 <- ggplot(revenue_by_duration, aes(x = duration_bin, y = avg_revenue, fill = 
        fill = "User Type") +
   clean_theme +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  scale_fill_manual(values = c("Customer" = colors["success"], "Subscriber" = colors["primary"])) +
+  scale_fill_manual(values = c("Customer" = "#E74C3C", "Subscriber" = "#3498DB")) +
   scale_y_continuous(labels = scales::dollar)
 
 # 6. Peak Hour Revenue Analysis
