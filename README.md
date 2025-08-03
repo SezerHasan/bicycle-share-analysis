@@ -20,7 +20,7 @@ This project analyzes **1.6+ million bike share trips** from Q3 2019 to identify
 
 ## Interactive Dashboard
 
-**[View Interactive Report](reports/bike_share_dashboard.html)**
+**[View Interactive Report](bike_share_dashboard.html)**
 
 *Explore the data interactively with embedded visualizations, statistical analysis, and business insights.*
 
@@ -42,8 +42,8 @@ Bicycle_Share/
 │   ├── user_type_distribution.png # User type analysis
 │   └── ...                     # Additional visualizations
 ├── reports/                 # Analysis reports and documentation
-│   ├── bike_share_dashboard.html # Interactive HTML report
 │   └── Bike_Share_Revenue_Optimization_Report.md
+├── bike_share_dashboard.html # Interactive HTML dashboard
 └── documentation/           # Additional documentation
 ```
 
