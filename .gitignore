@@ -42,8 +42,9 @@ Thumbs.db
 *.xls
 data/Trips_2019_Q3.csv
 
-# Output files
+# Output files (excluding the main dashboard)
 *.html
+!bike_share_dashboard.html
 *.pdf
 *.docx
 *.pptx
