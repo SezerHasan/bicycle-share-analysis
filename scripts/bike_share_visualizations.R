@@ -132,7 +132,7 @@ user_type_summary <- bike_data_clean %>%
   )
 
 p4 <- ggplot(user_type_summary, aes(x = usertype, y = count, fill = usertype)) +
-  geom_bar(stat = "identity", alpha = 0.8) +
+  geom_bar(stat = "identity", alpha = 1.0, color = "black", linewidth = 0.5) +
   geom_text(aes(label = paste0(round(percentage, 1), "%")), 
             vjust = -0.5, size = 4, color = "#333333", fontface = "bold") +
   labs(title = "User Type Distribution",
@@ -141,7 +141,7 @@ p4 <- ggplot(user_type_summary, aes(x = usertype, y = count, fill = usertype)) +
        y = "Number of Trips") +
   clean_theme +
   theme(legend.position = "none") +
-  scale_fill_manual(values = c("Customer" = colors["success"], "Subscriber" = colors["primary"])) +
+  scale_fill_manual(values = c("Customer" = "#FF0000", "Subscriber" = "#0000FF")) +
   scale_y_continuous(labels = scales::comma)
 
 # 4. Trip Duration Distribution
