@@ -1,15 +1,15 @@
-# 🚴‍♂️ Bike Share Revenue Optimization Analysis
+# Bike Share Revenue Optimization Analysis
 
 [![R](https://img.shields.io/badge/R-4.0+-blue.svg)](https://www.r-project.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Data Science](https://img.shields.io/badge/Data%20Science-Analysis-orange.svg)](https://github.com/topics/data-science)
 [![Business Intelligence](https://img.shields.io/badge/Business%20Intelligence-Revenue%20Optimization-purple.svg)](https://github.com/topics/business-intelligence)
 
-## 📊 Executive Summary
+## Executive Summary
 
 This project analyzes **1.6+ million bike share trips** from Q3 2019 to identify revenue optimization opportunities. Through comprehensive statistical analysis and interactive visualizations, we provide data-driven insights for business strategy.
 
-### 🎯 Key Findings
+### Key Findings
 
 - **70% Subscribers, 30% Customers** - but customers generate **4x more revenue per trip** ($8.01 vs $2.00)
 - **Peak hours (5-7 PM)** account for **43.4% of all trips** and highest revenue generation
@@ -18,39 +18,38 @@ This project analyzes **1.6+ million bike share trips** from Q3 2019 to identify
 
 ---
 
-## 📈 Interactive Dashboard
+## Interactive Dashboard
 
-**[🚀 View Interactive Report](reports/bike_share_dashboard.html)**
+**[View Interactive Report](reports/bike_share_dashboard.html)**
 
 *Explore the data interactively with embedded visualizations, statistical analysis, and business insights.*
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Bicycle_Share/
-├── 📁 data/                    # Raw and processed datasets
+├── data/                    # Raw and processed datasets
 │   └── Trips_2019_Q3.csv      # Main dataset (1.6M+ trips)
-├── 📁 scripts/                 # Analysis and visualization scripts
+├── scripts/                 # Analysis and visualization scripts
 │   ├── bike_share_analysis.R   # Main EDA analysis
 │   ├── bike_share_visualizations.R  # Static visualizations
-│   ├── statistical_analysis_fixed.R  # Statistical testing
-│   └── generate_interactive_report.R # Interactive dashboard
-├── 📁 plots/                   # Generated visualizations
+│   └── statistical_analysis_fixed.R  # Statistical testing
+├── plots/                   # Generated visualizations
 │   ├── hourly_usage.png        # Hourly usage patterns
 │   ├── daily_usage.png         # Daily usage patterns
 │   ├── user_type_distribution.png # User type analysis
 │   └── ...                     # Additional visualizations
-├── 📁 reports/                 # Analysis reports and documentation
+├── reports/                 # Analysis reports and documentation
 │   ├── bike_share_dashboard.html # Interactive HTML report
 │   └── Bike_Share_Revenue_Optimization_Report.md
-└── 📁 documentation/           # Additional documentation
+└── documentation/           # Additional documentation
 ```
 
 ---
 
-## 🔬 Analysis Overview
+## Analysis Overview
 
 ### Statistical Analysis Performed
 
@@ -70,7 +69,7 @@ Bicycle_Share/
 
 ---
 
-## 📊 Key Visualizations
+## Key Visualizations
 
 ### Hourly Usage Patterns
 ![Hourly Usage](plots/hourly_usage.png)
@@ -83,7 +82,7 @@ Bicycle_Share/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -107,9 +106,6 @@ Rscript bike_share_visualizations.R
 
 # Perform statistical analysis
 Rscript statistical_analysis_fixed.R
-
-# Create interactive dashboard
-Rscript generate_interactive_report.R
 ```
 
 ### Viewing Results
@@ -120,25 +116,25 @@ Rscript generate_interactive_report.R
 
 ---
 
-## 📋 Business Recommendations
+## Business Recommendations
 
 ### Immediate Opportunities (0-3 months)
-- ✅ **Peak Hour Surge Pricing**: 20-30% price increase during 5-7 PM
-- ✅ **Customer Conversion Campaign**: Target 10% customer-to-subscriber conversion
-- ✅ **Off-Peak Promotions**: Incentivize usage during low-demand hours
+- **Peak Hour Surge Pricing**: 20-30% price increase during 5-7 PM
+- **Customer Conversion Campaign**: Target 10% customer-to-subscriber conversion
+- **Off-Peak Promotions**: Incentivize usage during low-demand hours
 
 ### Medium-term Opportunities (3-12 months)
-- 🔄 **Dynamic Pricing Model**: Time-based and demand-based pricing
-- 🔄 **Station Optimization**: Redistribute bikes based on usage patterns
-- 🔄 **Subscription Tier Development**: Multiple subscription options
+- **Dynamic Pricing Model**: Time-based and demand-based pricing
+- **Station Optimization**: Redistribute bikes based on usage patterns
+- **Subscription Tier Development**: Multiple subscription options
 
 ### Long-term Opportunities (1+ years)
-- 🎯 **Market Expansion**: Add stations in high-demand areas
-- 🎯 **Technology Integration**: Mobile app improvements and partnerships
+- **Market Expansion**: Add stations in high-demand areas
+- **Technology Integration**: Mobile app improvements and partnerships
 
 ---
 
-## 📈 Expected Impact
+## Expected Impact
 
 | Metric | Current | Projected | Improvement |
 |--------|---------|-----------|-------------|
@@ -149,7 +145,7 @@ Rscript generate_interactive_report.R
 
 ---
 
-## 🔍 Statistical Insights
+## Statistical Insights
 
 ### Significant Findings (p < 0.001)
 - Trip duration differs significantly between subscribers and customers
@@ -164,7 +160,7 @@ Rscript generate_interactive_report.R
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -174,33 +170,22 @@ Rscript generate_interactive_report.R
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📞 Contact
+## Contact
 
-- **Project Link**: [https://github.com/yourusername/bicycle-share-analysis](https://github.com/yourusername/bicycle-share-analysis)
+- **Project Link**: [https://github.com/SezerHasan/bicycle-share-analysis](https://github.com/SezerHasan/bicycle-share-analysis)
 - **Data Source**: Bike Share Company Q3 2019 Dataset
 - **Analysis Period**: July-September 2019
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Data Science community for best practices
 - R ecosystem for powerful analytical tools
-- Bike share company for providing the dataset
-
----
-
-<div align="center">
-
-**Made with ❤️ for Data-Driven Business Decisions**
-
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/bicycle-share-analysis?style=social)](https://github.com/yourusername/bicycle-share-analysis)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/bicycle-share-analysis?style=social)](https://github.com/yourusername/bicycle-share-analysis)
-
-</div> 
+- Bike share company for providing the dataset 
