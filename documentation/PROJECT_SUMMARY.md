@@ -167,5 +167,5 @@ This project analyzes **1.6+ million bike share trips** from Q3 2019 to identify
 ---
 
 **Analysis Period**: Q3 2019 (July-September)  
-**Data Source**: Bike Share Company Dataset  
+**Data Source**: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html) - Official Divvy bike share data from AWS S3  
 **Total Records**: 1,640,718 trips 

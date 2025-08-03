@@ -6,7 +6,7 @@
 - **Size**: ~215 MB
 - **Records**: 1,640,718 bike share trips
 - **Period**: Q3 2019 (July-September)
-- **Source**: Bike Share Company
+- **Source**: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html) - Official Divvy bike share data
 
 ### Dataset Schema
 | Column | Type | Description |
@@ -35,7 +35,7 @@
 This large dataset file is excluded from GitHub due to size limitations (215MB > 100MB limit). 
 
 **To run the analysis scripts, you'll need to:**
-1. Obtain the dataset from the bike share company
+1. Download the dataset from [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
 2. Place `Trips_2019_Q3.csv` in this `data/` directory
 3. Run the analysis scripts from the `scripts/` directory
 

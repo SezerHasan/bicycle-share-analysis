@@ -179,13 +179,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 - **Project Link**: [https://github.com/SezerHasan/bicycle-share-analysis](https://github.com/SezerHasan/bicycle-share-analysis)
-- **Data Source**: Bike Share Company Q3 2019 Dataset
+- **Data Source**: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html) - Official Divvy bike share data from AWS S3
 - **Analysis Period**: July-September 2019
 
 ---
 
 ## Acknowledgments
 
+- [Divvy](https://divvy-tripdata.s3.amazonaws.com/index.html) for providing the bike share dataset
 - Data Science community for best practices
-- R ecosystem for powerful analytical tools
-- Bike share company for providing the dataset 
+- R ecosystem for powerful analytical tools 
